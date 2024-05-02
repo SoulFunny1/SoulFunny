@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clickable Cards</title>
+<style>
+  body{
+    background-image: url(https://sfwallpaper.com/images/background-images-for-websites-20.jpg);
+  }
+/* Стили для контейнера с карточками */
+.card-container {
+  display: flex;
+  flex-wrap: wrap; /* Обертываем карточки на новую строку при необходимости */
+  justify-content: center; /* Выравниваем карточки по центру горизонтально */
+}
+
+/* Стили для карточек */
+.card {
+  background-color: #f0f0f0;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  text-decoration: none; /* Убираем подчеркивание ссылки */
+  color: #333; /* Цвет текста */
+}
+
+.card:hover {
+  background-color: #e0e0e0; /* Изменяем цвет фона при наведении */
+}
+</style>
+</head>
+<body>
+
+<!-- Контейнер для карточек -->
+<div class="card-container">
+  <!-- Создаем 10 карточек -->
+  <a href="file:///C:/Users/%D0%90%D0%BA%D0%B1%D0%B0%D1%80/Desktop/%D0%A1%D0%B2%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BF%D0%BE%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B0%D0%BC%2C%20%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B8/%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B0%201.html" class="card">Жұмысқа тұру кезіндегі маңызды сәттердің бірі?</a>
+  <a href="file:///C:/Users/%D0%90%D0%BA%D0%B1%D0%B0%D1%80/Desktop/%D0%A1%D0%B2%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BF%D0%BE%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B0%D0%BC%2C%20%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B8/%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B0%202.html" class="card">Келісім шарт дегеніміз не?</a>
+  <a href="file:///C:/Users/%D0%90%D0%BA%D0%B1%D0%B0%D1%80/Desktop/%D0%A1%D0%B2%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BF%D0%BE%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B0%D0%BC%2C%20%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B8/%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B0%203.html" class="card">Еңбек шартының басқа шарттардан айырмашылығы?</a>
+  <a href="file:///C:/Users/%D0%90%D0%BA%D0%B1%D0%B0%D1%80/Desktop/%D0%A1%D0%B2%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BF%D0%BE%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B0%D0%BC%2C%20%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B8/%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B0%204.html" class="card">Еңбек шарты қандай жағдайда тоқтатылады?</a>
+  <a href="file:///C:/Users/%D0%90%D0%BA%D0%B1%D0%B0%D1%80/Desktop/%D0%A1%D0%B2%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BF%D0%BE%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B0%D0%BC%2C%20%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B8/%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B0%205.html" class="card">ҚР ЕК-нің 64 бабына сәйкес еңбек тәртібін бұзғаны үшін жұмыскерге қандай тәртіптік жаза қолданады?</a>
+  <a href="file:///C:/Users/%D0%90%D0%BA%D0%B1%D0%B0%D1%80/Desktop/%D0%A1%D0%B2%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BF%D0%BE%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B0%D0%BC%2C%20%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B8/%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B0%206.html" class="card">Еңбек шартының мазмұны?</a>
+  <a href="file:///C:/Users/%D0%90%D0%BA%D0%B1%D0%B0%D1%80/Desktop/%D0%A1%D0%B2%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BF%D0%BE%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B0%D0%BC%2C%20%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B8/%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B0%207.html" class="card">Жұмыс беруші кім?</a>
+  <a href="file:///C:/Users/%D0%90%D0%BA%D0%B1%D0%B0%D1%80/Desktop/%D0%A1%D0%B2%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BF%D0%BE%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B0%D0%BC%2C%20%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B8/%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B0%208.html" class="card">ҚР еңбек кодексі қай жылы қабылданды?</a>
+  <a href="file:///C:/Users/%D0%90%D0%BA%D0%B1%D0%B0%D1%80/Desktop/%D0%A1%D0%B2%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BF%D0%BE%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B0%D0%BC%2C%20%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B8/%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B0%209.html" class="card">Еңбек кодексі қанша тараудан және қанша баптан  тұрады?</a>
+  <a href="file:///C:/Users/%D0%90%D0%BA%D0%B1%D0%B0%D1%80/Desktop/%D0%A1%D0%B2%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BF%D0%BE%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B0%D0%BC%2C%20%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B8/%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B0%2010.html" class="card">Еңбек дауларын шешу жолдары?</a>
+</div>
+
+</body>
+</html>
